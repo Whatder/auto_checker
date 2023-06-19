@@ -45,7 +45,7 @@ class Index:
 
     def __on_finish(self, text):
         self.ui.textBrowser.append(text)
-        self.ui.btn_start.setEnabled(self.file_path != '')
+        self.ui.btn_start.setEnabled(False)
         self.ui.btn_stop.setEnabled(False)
 
 
